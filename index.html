@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html ng-controller="myControl">
+
+<head>
+    <link href="styles/style.css" type="text/css" rel="stylesheet" />
+    <link href="styles/base.css" type="text/css" rel="stylesheet" />
+    <link href="styles/layout.css" type="text/css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+
+    <script data-main="js/script.js" src="libs/require.js"></script>
+
+    <meta charset="utf-8" />
+    <title>CV on Azure</title>
+</head>
+<body>
+
+    <header>
+        <nav class="select-language hideForPrint">
+            <ul class="nav">
+                <li><a ng-click='SelectLanguage("en-US")'>English</a></li>
+                <li><a ng-click='SelectLanguage("chs")'>中文</a></li>
+                <li><a ng-click='SelectLanguage("ja-JP")'>日本語</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="personalProfile">
+            <div class="cv-section-title">
+                <img alt="" ng-src="{{data.photo}}" width="150">
+                <h1>
+                    <span ng-bind="data.name"></span>
+                    <small ng-bind="data.jobTitle"></small>
+                </h1>
+            </div>
+            <div class="cv-contectInfo">
+                <span class="hidden-tablet">Email: </span><a href="mailto:{{data.emailAddress}}" ng-bind="data.emailAddress"></a>
+                <br><span class="hidden-tablet">Phone: </span>{{data.cellPhone}}
+                <br><span class="hidden-tablet">Web: </span><a href="#" ng-bind="data.web"></a>
+            </div>
+        </section>
+
+        <section id="professionalProfile">
+            <div class="professionalProfileTitle">
+                <h2 name="title" ng-bind="data.proProfilesTitle"></h2>
+            </div>
+            <div class="professionalProfileContent">
+                <p ng-repeat='item in data.proProfiles'>{{item}}</p>
+            </div>
+        </section>
+
+        <section class="sectionMainTitle">
+            <h1 ng-bind="data.workExpTitle"></h1>
+        </section>
+        <section ng-repeat='exp in data.workExps'>
+            <div class="sectionTitle">
+                <h2 name="title">{{exp.jobTitle}}</h2>
+                <h4>{{data.projectNameTitle}}： {{exp.subTitle}}</h4>
+                <h4>{{exp.remark}}</h4>
+                <h4>{{exp.duration}}</h4>
+            </div>
+            <div class="sectionContent" anime="true">
+                <p ng-repeat='arch in exp.achievements'>{{arch}}</p>
+            </div>
+        </section>
+
+        <section class="sectionMainTitle">
+            <h1 ng-bind="data.eduExpTitle"></h1>
+        </section>
+        <section ng-repeat='exp in data.eduExps'>
+            <div class="eduDuration">
+                <span>{{exp.duration}}</span>
+            </div>
+            <div class="sectionContent">
+                <p>{{exp.title}}</p>
+            </div>
+        </section>
+    </article>
+
+    <nav id="floatButtonPanel" class="hideForPrint">
+        <button id="goTopBtn">Top</button>
+        <button id="printBtn">Print</button>
+    </nav>
+
+    <!--<div class="layerDiv" style="z-index: 0; visibility: hidden">
+            </div>
+
+            <div class="layerDiv" style="z-index: 1; visibility: hidden">
+                <canvas id="bgCanvas"></canvas>
+            </div>
+
+            <div id="contentDiv" class="layerDiv" style="z-index: 2; visibility: hidden">
+                <h1>Hello world for Node.Js Web app on Azure</h1>
+            </div>-->
+    <!--<script src="../scripts/script.js" type="text/javascript"></script>-->
+</body>
+</html>
