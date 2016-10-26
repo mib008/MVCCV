@@ -1,0 +1,109 @@
+﻿{
+    "dataFile": "dataEnUS.json",
+    "title": "CV on Microsoft Azure",
+    "name": "Future Wei",
+    "photo": "../images/photo.jpg",
+    "jobTitle": "Advanced NodeJs Engineer, Front End Architec",
+    "emailAddress": "mib008@126.com",
+    "cellPhone": "(+86) 15696126517",
+    "web": "",
+    "proProfilesTitle": "Personal Introduction",
+    "proProfiles": [
+        "Language Skills： English CET4, Japanese JLPT N2",
+        "Join in ShangHai HP enterprise as a intern in 2009, became regular in 2010. Join in IBM at the beginning of the year 2014, working to this day.",
+        "5 years of .Net developing experience, many of C/S projects experience. Be familiar with WinAPI, OfficeSDK. Outstanding of WPF front end developing. More than 2 years of Javascript developing: 1 year of developing at Browser's script, and 1 year of Node.js back end developing， Well skilled of Html(5)+CSS(3) with responsive designing, well skilled of jQuery API，Angular MVC framework, Built many front end framework by using RequireJs or Bowserify or WebPack, And optimizing Javascript code， Designing by using AMD(Asynchronous Model Design), Be good know at Node.Js, NPM. Have experience of deploying on Cloud just Microsoft Azure, IBM Bluemix."
+    ],
+    "workExpTitle": "Work Experience",
+    "projectNameTitle": "Project Name",
+    "workExps": [       
+        {
+            "jobTitle": "Front End Engineer",
+            "subTitle": "Flyco Online Shop & smart household electrical appliances",
+            "duration": "Jun.2015 - ",
+            "remark": "Chinese Project",
+            "achievements": [
+                "Android and IOS moblie application baed on Html+Javascript.",
+                "In phase 1, using Javascript + HTML5 develop a android mobile project for controlling household electrical, it's base on Cordova and Phonegap framework. Programming the functions of setting wireless for household electrical appliances just like Automatic robotic vacuum and Smart air cleaner, and binding those devices to Flyco user's account.",
+                "In phase 2, adding mall module for online shopping. Create common form control used by 4 pages, only by less than 100 lines codes instead of 800+ lines of old codes. Provide several responsive CSS design in order to display pages normally in difference devices(PC Browser, Pad and smart phones)",
+                "Finished jobs earlier 2 weeks than scheduled date."
+            ]
+        },
+        {
+            "jobTitle": "Front End Engineer Architec",
+            "subTitle": "Hogy",
+            "duration": "Jan.2014 - May 2015",
+            "remark": "Japan Medical",
+            "achievements": [
+                "Using EiCore framework, build up sliverlight virtual client on Client-Side‘s browser. Communicating by XML base on HTTP protocol with Server-Side",
+                "Hogy medical management system using for hospital, managing staff department and operation information for hospital. It is belongs to industry project. ",
+                "In phase 1 in 2014, Programmed two whole business module, the 30% works is not arranged for me, I deleted 10k lines codes of other's when I fixing bugs in it. Saved about two weeks for investigating problem of other team member's.",
+                "In phase 2, fixing existed bugs and extend functions for framework. Build a LDAP authentification way for Sliverlight front end, this requirement persecuted Japan team about 5 month and not solved. The key point is the security mechanism of Sliverlight, and configuration of IBM-TDS LDAP Service.",
+                "Because of Japan team’s dissolved, lots of works hands on by us."
+            ]
+        },
+        {
+            "jobTitle": "Front End Engineer Architec",
+            "subTitle": "HULFT Datamagic",
+            "duration": "Jun.2013 - Jan.2014",
+            "remark": "Data migration Software & System",
+            "achievements": [
+                "Using WPF for client-side, Using Node.Js for implement Reverse Proxy + Server Load Balancer for server-side",
+                "Redesign the UI of Datamagic WPF client, the goal is makes UI window can be displayed correctly in different window size and multi-language OS environments. ",
+                "Deleted 40k lines useless or superfluous codes. Simplified the XAML code for maintain the Datamagic better, deleted some useless properties define and binding data settings.",
+                "Design and programmed the Shell file converting tools for Datamagic Server IT testing. The tools could translating the message in Datamagic Server from Japanese to English by a regular express mapping define file. And the converting could running on multi-thread and multi-hosts in parallel."
+            ]
+        },
+        {
+            "jobTitle": "Front End Engineer, UI Material Designer",
+            "subTitle": "TOYOTA Map Master",
+            "duration": "Jan.2012 - May 2013",
+            "remark": "Japan Car-GPS",
+            "achievements": [
+                "Map drawing and managing for Car-GPS database.  The customer is TOYOTA Map Master. ",
+                "Provide solution and modify design for improve performance of data processing. Using spy++ and windows API for testing.",
+                "Contribution for project, 1. GPS function developing. Combine map data which contains address and path information from multi-database to one database.",
+                "2. Algorithm optimization and design for duplicate map data, merge map data from different source to one. Some partial difference has been found, some operation of map-merging changed from automatic to manual.",
+                "3. and design for huge map data processing. Collect and analysis driving lines for obtain the life style or habit of car owner.",
+                "Provide WPF and MVVM framework training for new team member."
+            ]
+        },
+        {
+            "jobTitle": "Programmer",
+            "subTitle": "KDDI (3GPP 4G technology)",
+            "duration": "Sep.2011 - Jan.2012",
+            "remark": "Japan telecom",
+            "achievements": [
+                "The project base on Java and web service technology. ",
+                "Convert LTE data package design in Excel file to Java code and class. ",
+                "The header of LTE short message data package designed in Excel file, I designed and programming a tools to creating Java Entity class and base functions for data package header’s processing."
+            ]
+        },
+        {
+            "jobTitle": "Programmer",
+            "subTitle": "Lion Openframe Cobol migration",
+            "duration": "Sep.2010 - Sep.2011",
+            "remark": "Japan retail selling",
+            "achievements": [
+                "The migration of Cobol language from MainFrame System to OpenFrame System.",
+                "Designed tools function contains: Collecting difference in Cobol code between old(for MainFrame) and new(for OpenFrame) to database. ",
+                "Designed and programmed batch modify (replace Cobol code by regular express) tools. Using Fundamentals of Compiling knowledge to convert some changing pattern."
+            ]
+        },
+        {
+            "jobTitle": "Programmer (Intern)",
+            "subTitle": "NTT 3G mobile communication",
+            "duration": "Aug.2009 - Sep.2010",
+            "remark": "Japan telecom",
+            "achievements": [
+                "Join in HP by outstanding score of written examination, and arrange work in a Intern-Project."
+            ]
+        }
+    ],
+    "eduExpTitle": "Education",
+    "eduExps": [
+        {
+            "title": "South West University - Computer Science and Technology",
+            "duration": "2006 - 2010"
+        }
+    ]
+}

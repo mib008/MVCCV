@@ -1,0 +1,106 @@
+﻿{
+    "dataFile": "dataJaJp.json",
+    "title": "履歴 on Microsoft Azure",
+    "name": "衛 徠",
+    "photo": "../images/photo.jpg",
+    "jobTitle": "アドバンスド・フロント-エンド・エンジニア",
+    "emailAddress": "mib008@126.com",
+    "cellPhone": "(+86) 15696126517",
+    "web": "",
+    "proProfilesTitle": "個人紹介",
+    "proProfiles": [
+        "言語能力： 英語 CET4、 日本語 JLPT N2。",
+        "平成21年 HP会社に入職、対日プロジェクト開発関しての仕事をしています。平成25年 上海IBMに入職、日本プロジェクトだけではなく、国内プロジェクトの開発仕事もしています",
+        "自分にとって、技術より、品性を高めることも重要なのです。ソフトを開発するは学生時代からの興味では限りなく、仕事になっても好きです。仕事中のチームワークを重視するし、他の人を手伝いすることで喜びを感じます。",
+        ".NetやObject-orientedの経験は５年で、多数のC/S項目を完成し、.Net以外はWinAPI、OfficeSDKの経験を持つ、一番得意のはWPF。これからWebフロント-エンドに情熱の燃え上って、Javascript二年以上経験を持つ、そのうちにBrowserScript開発経験を1年で、Node.JS関連開発経験も1年",
+        "JavaScriptに対し、Html（5）+CSS（3）、ResponsiveCSS、jQuery、Angular MVC Frameworkのスキルを持つ。RequireJs、或いはBowserify、或いはWebPackを使って、Code Optimizing、Module-BasedDesign、AMDを利用し、フロント-エンドのArchitectureを作り出すことができます。そして、Azure（Microsoft），Bluemix（IBM）にプロジェクトをDeployする経験があります。"
+    ],
+    "workExpTitle": "職務経験",
+    "projectNameTitle": "プロジェクト名称",
+    "workExps": [
+        {
+            "jobTitle": "フロント-エンド・エンジニア",
+            "subTitle": "Flyco スマート電器 & e-Shop ",
+            "duration": "2015年06月 - ",
+            "remark": "国内プロジェクト",
+            "achievements": [
+                "階段一で、Javascript + HTML5を使って、家でFlyco社製電気をコントロールできるAndroidスマフォーン用APPを開発する。そのAPPはPhonegapフレームワークを使用し、特別の要求があったら、NativePluginを作り出す",
+                "調査でAndroid-plugのバグを発見。一つの認証ロジックを多数のページで使えるために、ページレイアウトを作り直して、4ページの作業時間を節約させる。",
+                "省-市-区（都道府県-市区町村に似たような）選択するコントロールを初期化する共通メソッドを作成し、四つのページで使っている。提案として、ResponsiveCSS layoutの設計方針を提出する、その提案で、同一のページのレイアウトをスマフォーンやパッドやPCで正常に表示することができます。",
+                "多数の提案で、項目の工期を予定より二週間ぐらい早めに完成させました"
+            ]
+        },
+        {
+            "jobTitle": "フロント-エンド・エンジニア、アーキテク",
+            "subTitle": "Hogy",
+            "duration": "2014年1月 - 2015年5月",
+            "remark": "日本 医療プロジェクト",
+            "achievements": [
+                "病院が使っている、手術、医師管理システム。開発技術はC#.NET、Sliverlight。",
+                "第一段階、チェックリストモジュールの開発、テスト、バグ修正。独立でチェックリストモジュールの開発、他のモジュールの問題点を調査協力、設計の修正を提案。",
+                "第二段階、マスタ画面追加、LDAP認証処理追加。最も厳しいタスクは、Sliverlight用LDAP　APIの開発、日本側のチームは半年掛かって、調査結果を出なかったですが、わたし一人二週間で、Sliverlight用LDAP　APIを作り出しました。"
+            ]
+        },
+        {
+            "jobTitle": "フロント-エンド・エンジニア、アーキテク",
+            "subTitle": "HULFT Datamagic",
+            "duration": "2013年6月 - 2014年1月",
+            "remark": "日本 データ処理　遷移ツール・システム",
+            "achievements": [
+                "HULFT　DataMagic大量データ処理、変換ツール英語化後WPF画面の不具合を改修、一部画面を書き直す。",
+                "コード整理。４万行以上の悪いCodeを削除し、数千行のソースコードを書き直し。UI操作で長時間応答なしの問題も解決した",
+                "各WebServiceにNode.jsを使用してReverse Proxy + Server Load Balancerを実現する、サーバーの処理速度を数十倍を高めることができました。",
+                "サービステスト用のシェルファイル変換ツールを設計、作成し。Linux環境で、日本語版テストシェルを英語版に変換する。ツールの設計に正規表現、multi-threadを使いますし、多数のホストで同時に変換処理を行えます。"
+            ]
+        },
+        {
+            "jobTitle": "フロント-エンド・エンジニア、マテリアル設計",
+            "subTitle": "TOYOTA Map Master",
+            "duration": "2012年1月 - 2013年5月",
+            "remark": "日本 TMI",
+            "achievements": [
+                "大量マップデータを検索、ソートするためにアルゴリズム設計、改良。",
+                "クライアント側担当、新入りチームメンバーのトレーニング（WPFとMVVM技術）も担当",
+                "主なる役割，1.マップデータによって、更新、マージ、リビルド処理操作。WPF側のUI開発；",
+                "2.重複データの判定、検索をするために、二つのアルゴリズムを設計し、実現する。処理対象は千万級のデータ数、しかし後は源の違うデータに、同じ位置の経緯数値はある程度の差がある故に、アルゴリズムを改良し、人工操作の機能を付けました；"
+            ]
+        },
+        {
+            "jobTitle": "プログラマー",
+            "subTitle": "KDDI (3GPP 4G technology)",
+            "duration": "2011年9月 - 2012年1月",
+            "remark": "日本 KDDI",
+            "achievements": [
+                "VBA + Excelを使って、Java Entityソースコード変換 ツールの作成。関連した機能はLte SM通信電文の生成。",
+                "生成したJavaソースコードファイルにはデータの定義だけではなく、 基本のメソッドの生成も、各サーバーのログデータを収集し、Dashboardも作成できます"
+            ]
+        },
+        {
+            "jobTitle": "プログラマー",
+            "subTitle": "Lion Openframe Cobol migration",
+            "duration": "2010年9月 - 2011年9月",
+            "remark": "日本 零售",
+            "achievements": [
+                "MainFrameからOpenFrameへのコード移行。",
+                "基本機能を持つIDEを開発、JCLやCobolのコードをコード管理サーバーからCheckout、CheckInし、指定する編集ツールで編集、一部Fundamentals of Compilingの知識を使って、特別な箇所を自動変換できます",
+                "設計、開発Cobolコード移行ツール。 設計、開発移行前後のコード差分統計ツール（一部移行後コードの 検査機能があり）"
+            ]
+        },
+        {
+            "jobTitle": "Programmer（見習い）",
+            "subTitle": "NTT 3G mobile communication",
+            "duration": "2009年8月 - 2010年9月",
+            "remark": "日本",
+            "achievements": [
+                "大学第三学年の間、抜群の成績でHP会社にInternとして入りました。"
+            ]
+        }
+    ],
+    "eduExpTitle": "学歴",
+    "eduExps": [
+        {
+            "title": "西南大学　計算機科学与技術　工学学士",
+            "duration": "2006年 - 2010年"
+        }
+    ]
+}

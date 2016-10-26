@@ -1,0 +1,130 @@
+﻿{
+    "dataFile": "dataChs.json",
+    "title": "简历 on Microsoft Azure",
+    "name": "卫徕",
+    "photo": "../images/photo.jpg",
+    "jobTitle": "前端架构师，NodeJs工程师",
+    "emailAddress": "mib008@126.com",
+    "cellPhone": "(+86) 15696126517",
+    "web": "",
+    "proProfilesTitle": "个人简介",
+    "proProfiles": [
+        "外语水平： 英语 CET4， 日语JLPT N2。",
+        "09年进入上海惠普有限公司实习，10年成为正式员工，14年初作为正式员工加入上海IBM至今。",
+        "从学生时代到工作至今一直热爱技术与钻研，擅长提供解决方案和技术调查。比起技术更注重于个人品德修养。重视团队合作，乐于助人。",
+        "5年.Net开发经验，拥有数个C/S架构项目经验，熟悉WinAPI，OfficeSDK。WPF前端技术专精。",
+        "3年以上Javascript开发经验，2年Node.Js开发，熟悉Html（5）+CSS（3）的自适应，响应式页面设计，熟悉jQuery，React等主流前端框架，AngularJs 1.x精通，有使用RequireJs，Bowserify，WebPack创建前段工程框架的经验。熟悉前端代码优化、AMD CMD模块化开发。后台方面，有使用NodeJs编写全异步批处理程序，Web Server（纯原生，Express），WebService。熟悉NPM包管理器，有Azure（Microsoft），Bluemix（IBM）云端网站部署经验。",
+        "能从事NodeJs前端全栈开发，但由于本人对‘全栈’一词有不同的见解，一般不这么称呼自己。"
+    ],
+    "workExpTitle": "工作经历",
+    "projectNameTitle": "项目名称",
+    "workExps": [{
+            "jobTitle": "前端工程师，前端架构师，NodeJs工程师",
+            "subTitle": "森浦咨询 AngularJs通用UI框架/UI框架生成系统",
+            "duration": "2016年5月 - ",
+            "remark": "国内项目",
+            "achievements": [
+                "基本构想与目的是为了统一公司所有项目的UI风格，但因各个项目采用的架构鱼技术均不相同，需要考虑种框架间的兼容性与可用性。AMD， CMD，直接通过Script DOM加载的方式下均可使用。",
+                "项目重点是编写UI框架生成系统，由于是多人同时开发，每个人所负责的样式功能均不相同，所以在NodeJs的后端采用了动态编译，加载的机制。",
+                "每个控件通过Json配置指定模板，驱动所使用的AngularJs指令，用于展示在脚手架页面的Html代码，CSS样式，调用Js代码示例，并制定划分哪些代码用于改UI库的展示，哪些用于打包。",
+                "控件相关代码全部动态加载。",
+                "使用ngReact，允许开发人员使用React创建控件。",
+                "控件展示画面提供下载按钮，该按钮驱动后台的打包脚本，能对所有控件的指令，样式，模板（使用AngularJs的$templateChche服务）打包并下载。"
+            ]
+        },{
+            "jobTitle": "前端工程师，前端架构师",
+            "subTitle": "森浦咨询 金融计算器 基差盈亏分析系统",
+            "duration": "2016年1月 - ",
+            "remark": "国内项目 金融",
+            "achievements": [
+                "使用RequireJs构建AngularJs前端AMD框架，在多期迭代的项目中将一个个功能模块独立分开，用户端按需加载。第三方图标控件使用eCharts。",
+                "使用并基于AngularJs开发了一套数据驱动框架，事件处理与业务数据模型分离，代码清晰明了。使整个项目提前4周完成。"
+            ]
+        },
+        {
+            "jobTitle": "前端工程师",
+            "subTitle": "飞科商城 飞科智能家电",
+            "duration": "2015年06月 - 2016年1月",
+            "remark": "国内项目",
+            "achievements": [
+                "使用Html+Javascript，基于Cordova和Phonegap架构，运行于Android和IOS移动平台。",
+                "06月-07月完成飞科智能家电项目，实现了智能手机端对空气净化器，全自动吸尘器等智能家电的用户绑定，无线网络配置的功能为项目研究并解决了数个课题。",
+                "08月-转入飞科商城的开发工作，提出数个jQuery共通表单的解决方案，使得4个关联画面实际工期大幅缩短。为适配多种设备的显示，为适配多种设备提供了几份响应式css设计方案。",
+                "最终项目提前于工期数周完成。"
+            ]
+        },
+        {
+            "jobTitle": "前端工程师，前端架构师",
+            "subTitle": "Hogy",
+            "duration": "2014年1月 - 2015年5月",
+            "remark": "日本 医疗项目",
+            "achievements": [
+                "使用ASP.NET，Sliverlight，部署于IIS，与后台的通信通过Http，使用XML的序列化与反序列化技术。",
+                "2014年的第一期作为前端工程师，独自完成了2个模块的功能开发，其中30%的工作是在进度安排之外，推掉了别人未能完成的部分。利用节省下来的两周多时间为其他模块调查并解决疑难课题。",
+                "第二期扩展机能，为Sliverlight端框架修正Bug和缺陷。其中，在Sliverlight端实现与IBM-TDS的LDAP加密通信，此课题日方多名专家调查半年未果，难点在于Sliverlight端的性能和安全问题，以及IBM-TDS服务器的AD配置。",
+                "后期由于解散了日方团队的数人，承担了巨大的压力。"
+            ]
+        },
+        {
+            "jobTitle": "前端工程师，前端架构师",
+            "subTitle": "HULFT Datamagic",
+            "duration": "2013年6月 - 2014年1月",
+            "remark": "日本 数据处理 迁移工具 系统",
+            "achievements": [
+                "客户端使用WPF前端技术，服务器端使用Node.js实现的反向代理后，访问多个WebService节点实现负载均衡",
+                "Datamagic软件的功能为大数据处理，迁移以及转换。包括客户端服务器端，可以在多个平台之间（Windows HP-Unix AIX Linux）实现数据迁移",
+                "为了适配多国显示语言，利用自适应以及动画技术为WPF前端窗体重新设计UI布局，并新增风格切换功能。为前端精简了4w行以上的XAML CS代码，全面解除了所有UI的异步响应问题，使软件效率翻倍提升，大大改善用户体验。",
+                "编写并设计工具转换多语言的自动化测试Shell脚本，用于测试多语言化后的Linux Server端服务",
+                "编写并设计Node.js反向代理中间件，极大提升前端大数据量、高并发的服务器端访问。"
+            ]
+        },
+        {
+            "jobTitle": "前端工程师，UI交互设计师",
+            "subTitle": "TOYOTA Map Master",
+            "duration": "2012年1月 - 2013年5月",
+            "remark": "日本 车载GPS",
+            "achievements": [
+                "主要负责客户端部分，使用WPF技术，为项目提供培训（WPF以及MVVM框架）",
+                "项目中负责内容，1.地图数据的更新，合并，重建模块的业务处理以及WPF UI开发；",
+                "2.设计了两套判重，查询算法，处理千万级别的地标数据，之后因为发现从不同源采集到的数据中同一位置的经纬度有偏差，地图的自动拼接模块采用点集合描绘边框并保留地标坐标后再UI上人工拼接。；",
+                "3.初步的大数据挖掘，从用户的行驶，滞留路线和时间点整理并分析用户基本生活习惯，并分类。"
+            ]
+        },
+        {
+            "jobTitle": "程序员",
+            "subTitle": "KDDI (3GPP 4G technology)",
+            "duration": "2011年9月 - 2012年1月",
+            "remark": "日本 电信项目",
+            "achievements": [
+                "编写VBA脚本，根据Excel中的LTE数据包头的定义表格生成C/C++的结构体块，以及Java的处理代码，",
+                "使用Office SDK编写多线程的Excel处理工具，用于从不同的Java服务器日志中收集数据，整理出报表和图表"
+            ]
+        },
+        {
+            "jobTitle": "程序员",
+            "subTitle": "Lion Openframe Cobol migration",
+            "duration": "2010年9月 - 2011年9月",
+            "remark": "日本 零售",
+            "achievements": [
+                "项目主要的需求是从MainFrame到OpenFrame的Cobol程序移植，本人负责编写简易IDE工具，主要功能为通过代码管理工具的SDK取出或更新JCL和Cobol代码，通过指定的编辑器打开编辑，编写并设计差分算法收集并整理JCL和Cobol变更前后代码中的变更点，变更人员，变更时间等",
+                "运用简单编译原理为个别的代码移植逻辑编写语法解析，重构程序。"
+            ]
+        },
+        {
+            "jobTitle": "程序员（实习）",
+            "subTitle": "NTT 3G mobile communication",
+            "duration": "2009年8月 - 2010年9月",
+            "remark": "日本 电信项目",
+            "achievements": [
+                "大三期间以优异的笔试成绩进入HP实习，实习项目"
+            ]
+        }
+    ],
+    "eduExpTitle": "教育经历",
+    "eduExps": [
+        {
+            "title": "西南大学育才学院 计算机科学与技术",
+            "duration": "2006年 - 2010年"
+        }
+    ]
+}

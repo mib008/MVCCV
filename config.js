@@ -8,14 +8,12 @@ require.config({
         jquery: "../libs/jquery-1.11.3/jquery-1.11.3.min"
     },
     shim: {
-        angular: {
-            exports: "angular"
-        }
+        angular: { deps: ['jquery'], exports: 'angular' }
     }
 
 });
 
-require(['app', 'bootstrap', 'animationVer2'], function (app, bootstrap, animation) {
+require(['app', 'animationVer2'], function (app, animation) {
     // define route
     // app.config(['$routeProvider', function ($routeProvider) {}]);
     
@@ -94,6 +92,11 @@ require(['app', 'bootstrap', 'animationVer2'], function (app, bootstrap, animati
 
         windowScrolling(-1);
     }
+
+    angular.element('html').ready(function() {
+        angular.bootstrap(document, ['personalSite']);
+    });
+
 });
 
 
